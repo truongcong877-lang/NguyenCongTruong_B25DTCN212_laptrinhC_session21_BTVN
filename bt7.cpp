@@ -26,7 +26,7 @@ void inputBook(struct Book *b){
     b->author[strcspn(b->author, "\n")] = '\0';
 
     printf("Nhap gia tien: ");
-    scanf("%f", &b->price);  // s?a %d -> %f
+    scanf("%f", &b->price);  
     getchar();
 
     printf("Nhap the loai: ");
@@ -209,4 +209,5 @@ int main(){
 
     return 0;
 }
+
 
